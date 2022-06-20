@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include "Encoder.h"
 #include <M5Stack.h>
-Encoder encoder0(3, 1); // AZ axis: Ch A to GPIO , Ch B to GPIO1 (26 & 36 DO NOT WORK - looses ticks)
+Encoder encoder0(21, 22); // AZ axis: Ch A to GPIO21 , Ch B to GPI22 (26 & 36 DO NOT WORK - looses ticks)
 Encoder encoder1(16, 17); // ALT axis: Ch A to GPIO16, Ch B to GPIO17
 WiFiServer wifiServer(8888);
 void setup() {
