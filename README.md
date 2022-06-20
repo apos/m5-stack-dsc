@@ -25,7 +25,7 @@ Cheers
 Axel
 
 # M5Stack Basic (NOT FIRE !)
-All important informations for M5Stick Basic the ports you get here at M-BUS
+All important informations for M5Stick Basic the ports you get here at section M-BUS:
 - https://docs.m5stack.com/en/core/gray
 
 I also tested and run the actual version (V26 black) of M5stack Basic (https://docs.m5stack.com/en/core/basic_v2.6) which works fine. 
