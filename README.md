@@ -1,4 +1,4 @@
-# M5-Stack DSC (fork of CN)
+# M5-Stack DSC (fork of CN - KISS)
 
 This is a fork of https://www.cloudynights.com/topic/621456-m5-dsc-simple-plug-n-play-digital-setting-circles/ . 
 Please refer to the thread for connecting to SkySafari. 
