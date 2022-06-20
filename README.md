@@ -93,7 +93,7 @@ Use the following settings:
 ![grafik](https://user-images.githubusercontent.com/456034/174562941-4f69c490-f526-4d45-b619-8e785456c81f.png)
 
 ### Troubleshooting on compilation
-Since there could occur a lot of problems depending on your setup, the could be compiling errors. Please read them carefully (duplicate libraries, missing libraries, code error in line ...) and Google. You will find a solution :-)
+Since there could occur a lot of problems depending on your setup, compile likely errors - this is no reason to give up. Please read them carefully (duplicate libraries, missing libraries, code error in line ...) and Google. You will find a solution :-) I can not support you in this case because this is no beginners course in arduino. 
 
 
 # SkySafari Setup
