@@ -82,7 +82,8 @@ Important:
 
 
 ### Compilation and Upload (ESP32)
-Do NOT use M5Stack, but ESP32 as board.
+Use ***ESP32 -> M5Stack ES32*** as board (_NOT_ M5Stack -> M5Stack ...).
+
 Set the appropriate COM port (please google, how the get the port for various operation systems).
 
 ![grafik](https://user-images.githubusercontent.com/456034/174558643-39a14898-9a33-44a1-a6c4-a70a994b4221.png)
