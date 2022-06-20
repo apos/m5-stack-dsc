@@ -14,13 +14,13 @@ void setup() {
   WiFi.mode(WIFI_AP);
   uint8_t mac[6];
   WiFi.softAPmacAddress(mac);
-  String AP_Name = "M5-DSC_BLK";
+  String AP_Name = "M5-DSC_BLK"; // USE WHAT YOU LIKE (max. 10 digits)
   char AP_NameChar[AP_Name.length() + 1];
   memset(AP_NameChar, 0, AP_Name.length() + 1);
   for (int i=0; i<AP_Name.length(); i++)
     AP_NameChar[i] = AP_Name.charAt(i);
 
-  String passwd = "$123qwe%";
+  String passwd = "$123qwe%";   // USE WHAT YOU LIKE (minimum 8 digits. No "minus".)
   char AP_PwdChar[passwd.length() + 1];
   memset(AP_PwdChar, 0, passwd.length() + 1);
   for (int i=0; i<passwd.length(); i++)
@@ -33,6 +33,7 @@ void setup() {
   }
   delay(100);
 
+  // Does a beep, when ready
   M5.Speaker.begin();
   M5.Speaker.tone(900, 300);
   delay(300);
