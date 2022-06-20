@@ -25,17 +25,33 @@ Axel
 
 # Upload and compile
 
+## Arduino.cc IDE download
+
+Use the Arduino download an _NOT_ the windows store (if using win). Linux is working best.
+If using Windows, exclude the directory c:\Users\YOURUSERNAME\AppData\Local\Arduino15 from windows defender or other antivirus programs. This is VERY important, because under windows compilation takes forever, if you do not do that (this is a well known issue!).
+
+## Configure Arduino IDE
+
 You need the following lines in the preferences file for external packages:
 
 https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
 https://dl.espressif.com/dl/package_esp32_index.json
 
-Then install ESP32 (from espressif) and M5Stack (from m5stack!) libraries via "Libraries" and the board "via boards". Use the most revcent versions:
+Then install ESP32 (from espressif) and M5Stack (from m5stack!) libraries via "Libraries" and the board "via boards". Use the most revcent versions.
+
+## Board:
 
 ![grafik](https://user-images.githubusercontent.com/456034/174559278-c58caa20-28f7-49e4-ac05-6e56de4a9c5d.png)
 
 ![grafik](https://user-images.githubusercontent.com/456034/174559474-f3787985-860d-4d7b-9457-855f63dda3e2.png)
 
+![grafik](https://user-images.githubusercontent.com/456034/174559736-f885cca2-0035-4cb2-a1f6-a416c8c4e61a.png)
+
+
+## Libraries
+
+
+## Preferences
 
 ![grafik](https://user-images.githubusercontent.com/456034/174558643-39a14898-9a33-44a1-a6c4-a70a994b4221.png)
 
