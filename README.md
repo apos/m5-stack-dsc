@@ -64,7 +64,7 @@ Then install ESP32 (from espressif) and M5Stack (from m5stack!) ***boards***. Us
 
 ### Libraries
 
-Then install ESP32 (from espressif) and M5Stack (from m5stack!) ***libraries***. You also need the encoder library from Paul Steffhagen. 
+Then install ESP32 (from espressif) and M5Stack (from m5stack!) ***libraries***. You also need the encoder library from Paul Stoffregen. 
 
 Use the most revcent versions. Please install ALL additional packages, if asked. 
 
