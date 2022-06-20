@@ -23,3 +23,20 @@ Cheers
 Axel
 
 
+# Upload and compile
+
+You need the following lines in the preferences file for external packages:
+
+https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
+
+Then install ESP32 (from espressif) and M5Stack (from m5stack!) libraries via "Libraries" and the board "via boards". Use the most revcent versions:
+
+![grafik](https://user-images.githubusercontent.com/456034/174559278-c58caa20-28f7-49e4-ac05-6e56de4a9c5d.png)
+
+![grafik](https://user-images.githubusercontent.com/456034/174559474-f3787985-860d-4d7b-9457-855f63dda3e2.png)
+
+
+![grafik](https://user-images.githubusercontent.com/456034/174558643-39a14898-9a33-44a1-a6c4-a70a994b4221.png)
+
+
