@@ -13,8 +13,8 @@ I made important changes to the code (Keep It Simple and Stupid - KISS):
 - I don't like the idea to use a MAC adress as password. IThis is no security device and starparties are no hacker spaces :-), so just use a simple password (min. 8 digits).
 - Also the name of the SSID should be simple and unique to your setup / telescope.
 - Using the button is not a good idea, because it may interrupt or cause problems with the code cycle. You can find a lot of thread for dealing with this problem. Therefore I eliminated it ([1.] has no need for a button or dsiplay any more - shut it off).
-- Display not used (my M5Stack has a broken display) - it is anyway not of any use in the case. Settings are basic and one can write them down. 
-- The given ports 26/36 in the original code for azimuth cause severe problems. I find through testing port 3 and 1 work fine. 
+- Display not used (my M5Stack has a broken display) - it is anyway not of any use in the case. Settings are basic and one can write them down.
+- The given ports 26/36 in the original code for azimuth cause severe problems. I find through testing port 21 and 22 work fine. 
 
 Coding and uploading with arduino is much better. The problem was, that it was absolutely not possible to compile and upload the code with the given information in the README.
 
@@ -24,6 +24,11 @@ You can download, comment or send issues to the code here.
 Cheers
 Axel
 
+# M5Stack
+All important informations for the ports you get here at M-BUS
+- https://docs.m5stack.com/en/core/gray
+
+I also tested on the actual version (V26 black) of M5stack (https://docs.m5stack.com/en/core/basic_v2.6)
 
 # Upload and compile
 
