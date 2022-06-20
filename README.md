@@ -24,11 +24,11 @@ You can download, comment or send issues to the code here.
 Cheers
 Axel
 
-# M5Stack
-All important informations for the ports you get here at M-BUS
+# M5Stack Basic (NOT FIRE !)
+All important informations for M5Stick Basic the ports you get here at M-BUS
 - https://docs.m5stack.com/en/core/gray
 
-I also tested on the actual version (V26 black) of M5stack (https://docs.m5stack.com/en/core/basic_v2.6)
+I also tested and run the actual version (V26 black) of M5stack Basic (https://docs.m5stack.com/en/core/basic_v2.6) which works fine. 
 
 # Upload and compile
 
